@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest
+@DataMongoTest
 public class TrackRepositoryTest {
   @Autowired
   TrackRepository trackRepository;
