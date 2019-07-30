@@ -19,7 +19,7 @@ public interface TrackService {
   //method to get track by id
   public Track getTrackById(int id) throws TrackNotFoundException;
   //method to get track by name
-  public Track getTrackByName(String name);
+ // public Track getTrackByName(String name);
   //To fetch data from last fm
   public void getTopTrack();
 }

@@ -79,11 +79,11 @@ public class TrackController extends GlobalExceptionHandler {
   }
 
   //To retrieve the record on the basis of name
-  @GetMapping("trackByName/{name}")
-  public ResponseEntity getTrackByName(@PathVariable String name)
-  {
-    return new ResponseEntity<Track>(trackService.getTrackByName(name),HttpStatus.OK);
-  }
+//  @GetMapping("trackByName/{name}")
+//  public ResponseEntity getTrackByName(@PathVariable String name)
+//  {
+//    return new ResponseEntity<Track>(trackService.getTrackByName(name),HttpStatus.OK);
+//  }
 
   //For the mapping of the top tracks from last fm
   @GetMapping("toptrack")

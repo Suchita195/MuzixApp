@@ -13,7 +13,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import javax.persistence.Id;
+//import javax.persistence.Id;
 import java.util.List;
 import java.util.Optional;
 
@@ -86,11 +86,11 @@ public class TrackServiceImpl implements TrackService {
     //return trackRepository.findById(id).orElse(null);
   }
 
-  //To retrieve the tracks by name
-  @Override
-  public Track getTrackByName(String name) {
-    return trackRepository.findTrackByName(name);
-  }
+//  //To retrieve the tracks by name
+//  @Override
+//  public Track getTrackByName(String name) {
+//    return trackRepository.findTrackByName(name);
+//  }
 
   @Override
   public void getTopTrack()
